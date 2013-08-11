@@ -1,1 +1,3 @@
-
+alloy new
+alloy generate jmk
+app/alloy.jmkを編集し、CoffeeScript環境を作る必要がある
