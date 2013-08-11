@@ -2,9 +2,9 @@
 ボタンの追加
 ###
 menuBtn = Titanium.UI.createButton
-	image:'/images/menu.png',
-	width:32,
-	height:32,
+	image:'/images/menu.png'
+	width:32
+	height:32
 $.mainWindow.leftNavButton = menuBtn
 
 
@@ -42,12 +42,12 @@ for i in[1..5]
 		height:Ti.UI.FILL
 		text:"Menu#{i}"
 		font:{
-			fontFamily:'Arial-BoldMT',
-			fontWeight:'bold',
+			fontFamily:'Arial-BoldMT'
+			fontWeight:'bold'
 			fontSize:17
 		}
 	row.add title
 	$.menuTable.appendRow row
 
 
-$.index.open();
+$.index.open()
