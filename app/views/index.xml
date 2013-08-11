@@ -1,0 +1,14 @@
+<Alloy>
+	<Window class="container">
+		<View id="menu">
+			<TableView id="menuTable"/>
+		</View>
+		<View id="main">
+			<NavigationGroup id="nav">
+				<Window title="Top" id="mainWindow">
+					<Label>Hello</Label>
+				</Window>
+			</NavigationGroup>
+		</View>
+	</Window>
+</Alloy>

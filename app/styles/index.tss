@@ -1,0 +1,23 @@
+".container": {
+	backgroundColor:"white",
+},
+
+"#menu":{
+	backgroundColor:"gray",
+	height: Ti.UI.FILL,
+	width: 150,
+	left: 0
+},
+
+"#menuTable":{
+	backgroundImage:'/images/table_bg.png',
+	allowsSelection:false,
+	separatorStyle:Ti.UI.iPhone.TableViewSeparatorStyle.NONE
+},
+
+"#main":{
+	backgroundColor:"white",
+	height: Ti.UI.FILL,
+	width: 320,
+	left: 0
+},
